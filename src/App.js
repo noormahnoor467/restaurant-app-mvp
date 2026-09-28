@@ -1,9 +1,6 @@
-import { Text, View } from 'react-native';
+import React from 'react';
+import LoginScreen from './screens/loginScreen';
 
 export default function App() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Restaurant App MVP</Text>
-    </View>
-  );
+  return <LoginScreen />;
 }
